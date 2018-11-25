@@ -1,0 +1,16 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+}
+main{
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    
+}
+#title{
+   text-align: center;
+   color: lime;
+   font-size: 70px;
+   font-family: "Chakra Petch", sans-serif;
+}
