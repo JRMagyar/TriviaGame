@@ -28,7 +28,7 @@ main{
     width: 700px;
     height: 500px;
 }
-#submit{
+.end-btn{
     position: relative;
     left: 300px;
     margin-top: 160px;
@@ -38,4 +38,7 @@ main{
 .selected{
     background-color: lime;
     font-weight: bold;
+}
+.answer{
+    display: none;
 }
