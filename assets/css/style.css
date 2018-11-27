@@ -14,3 +14,28 @@ main{
    font-size: 70px;
    font-family: "Chakra Petch", sans-serif;
 }
+.btn{
+    margin:10px;
+}
+#question{
+    margin:10px;
+    padding-top: 20px;
+    
+}
+#content{
+    color: lime;
+    font-family: "Orbitron", sans-serif;
+    width: 700px;
+    height: 500px;
+}
+#submit{
+    position: relative;
+    left: 300px;
+    margin-top: 160px;
+    background-color: lime;
+    font-weight: bolder;
+}
+.selected{
+    background-color: lime;
+    font-weight: bold;
+}
