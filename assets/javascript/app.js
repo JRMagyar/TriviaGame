@@ -77,12 +77,10 @@ $("#next").on("click",function(){
         score++
     }
     count++
+    console.log(score);
     //runs on game ended when reached by question ending
     if(count >= question.length){
         stop();
-        if(playerAnswers[count] == correctAnswers[count]){
-            score++
-        }
         endGame();
     }
    else{
