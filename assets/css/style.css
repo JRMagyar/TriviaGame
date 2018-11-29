@@ -31,7 +31,6 @@ main{
 .end-btn{
     position: relative;
     left: 300px;
-    margin-top: 160px;
     background-color: lime;
     font-weight: bolder;
 }
@@ -41,4 +40,10 @@ main{
 }
 .answer{
     display: none;
+}
+#timer{
+    position: relative;
+    top: 50px;
+    margin: 10px;
+
 }
