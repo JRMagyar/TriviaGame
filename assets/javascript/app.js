@@ -75,9 +75,12 @@ $("#next").on("click",function(){
     playerAnswers.push(currentAnswer);
     if(playerAnswers[count] == correctAnswers[count]){
         score++
+        
     }
+    console.log(correctAnswers[count])
+    console.log(playerAnswers[count])
     count++
-    console.log(score);
+
     //runs on game ended when reached by question ending
     if(count >= question.length){
         stop();
