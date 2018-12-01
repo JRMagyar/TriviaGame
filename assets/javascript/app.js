@@ -58,8 +58,8 @@ function endGame(){
 //button on clicks
 $("#start").on("click",function(){
     $("#start").css("display", "none");
-    $("#next").css("display", "initial");
-    $(".answer").css("display", "initial");
+    $("#next").css("display", "inherit");
+    $(".answer").css("display", "inherit");
     nextQuestion(count);
     run();
 

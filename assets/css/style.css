@@ -47,3 +47,6 @@ main{
     margin: 10px;
 
 }
+#submit{
+    display: none;
+}
